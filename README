@@ -1,0 +1,6 @@
+This is a project that contains a modified implementation of Conway's Game of Life in Javascript.
+
+It facilitates the usage of multiple predefined initial states (the popular ones, at least) as well as a random state.
+
+Dead cells are distinguishable from Live cells.
+

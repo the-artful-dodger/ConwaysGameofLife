@@ -1,10 +1,4 @@
-/*jslint onevar: true, undef: false, nomen: true, eqeqeq: true, plusplus: false, bitwise: true, regexp: true, newcap: true, immed: true  */
-
-/**
- * Game of Life - JS & CSS
- * http://pmav.eu
- * 04/Sep/2010
- */
+//GameOfLife javascript file. (includes canvas descriptions.)
 
 (function () {
 

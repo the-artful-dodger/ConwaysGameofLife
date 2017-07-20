@@ -1,21 +1,5 @@
-// Copyright (C) 2008 Google Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
 
-/**
- * Parses a string of well-formed JSON text.
- * Mike Samuel <mikesamuel@gmail.com>
- */
+ // Parses a string of well-formed JSON text.
 
 var jsonParse=(function(){var number='(?:-?\\b(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?(?:[eE][+-]?[0-9]+)?\\b)';var oneChar='(?:[^\\0-\\x08\\x0a-\\x1f\"\\\\]'+'|\\\\(?:[\"/\\\\bfnrt]|u[0-9A-Fa-f]{4}))';var string='(?:\"'+oneChar+'*\")';var jsonToken=new RegExp('(?:false|true|null|[\\{\\}\\[\\]]'+'|'+number
 +'|'+string
